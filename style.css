@@ -1,0 +1,64 @@
+body{
+    margin: 0%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+}
+.menu-heading{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 20px;
+
+}
+.tripadvicer{
+    font-size: 28px;
+}
+.menu-image{
+    height: 20px;
+    cursor: pointer;
+}
+.sign-in{
+    text-decoration: none;
+    background-color: black;
+    font-weight:600;
+    color: white;
+    margin-right: 20px;
+    padding: 9px;
+    border-radius: 50PX;
+    font-size: small;
+}
+.wheretodiv h2{
+    font-size: 45px;
+}
+.wheretodiv{
+    margin-top: 60px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.houseimg{
+    width: 24px;
+    height: 24px;
+    position:relative;
+    bottom: -5px;
+
+}
+.menu-s a{
+    text-decoration: none;
+    padding: 9px;
+    margin: 2px;
+    margin: 1px solid black;
+    
+}
