@@ -37,6 +37,7 @@ body{
     padding: 9px;
     border-radius: 50PX;
     font-size: small;
+   margin-left: 10px;
 }
 .wheretodiv h2{
     font-size: 45px;
@@ -61,4 +62,92 @@ body{
     margin: 2px;
     margin: 1px solid black;
     
+}
+.inr{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 9px;
+    border-radius: 19px;
+
+}
+.inr:hover{
+    background-color: rgb(200, 200, 200);
+}
+.navbar-topics{
+   display: flex;
+   gap: 10px;
+}
+.navbar-topics a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+    padding: 9px;
+    border-radius: 19px;
+    font-size: small;
+}
+.navbar-topics a:hover{
+    background-color: rgb(222, 221, 221);
+}
+.sign-in:hover{
+    background-color:white;
+    color: black;
+    border: 1px solid black;
+}
+.signin{
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+}
+.menu-s{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.menu-s a{
+    color: black;
+    font-weight: 550;
+    
+   
+}
+.menu-s a:hover{
+    text-decoration: underline;
+}
+.search{
+    
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    width: 75%;
+    height: 50px;
+    box-shadow: 2px 3px 3px rgb(169, 144, 144);
+    align-items: center;
+    border-radius: 30px;
+    
+
+}
+
+.search input{
+    width: 90%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    
+}.searchbar{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.search button{
+    background-color: rgb(162, 244, 40);
+    height: 40px;
+    margin-right: 5px;
+    font-weight: 550;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid black;
 }
