@@ -151,9 +151,72 @@ body{
     cursor: pointer;
     border: 1px solid black;
 }
-.gggg{
+.contentbox{
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+.greendiv{
+    background-color: rgb(114, 206, 114);
+    height:80%;
+    width: 95%; 
+    
+    border-radius: 5px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.natureimg{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.imagediv{
+    
+    height: 90%;
+    width: 45%;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-sizing:;
+}
+.text{
+   
+    width: ;
+    height: 100%;
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+    gap:4%;
+    width: 45%;
+    
+}
+.ioo{
+    font-weight: bolder;
+    font-size:64px ;
+    margin-left: 10px;
+    
+    
+}
+.booknow{
     background-color: black;
-    height: 200px;
-    width: 200px;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 40px;
+    font-weight: 600;
+    cursor: pointer;
+    
+
 
 }
